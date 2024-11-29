@@ -10,12 +10,6 @@ export const tabs = [
   { id: 'tab-3', title: 'Tab 3', content: 'Some text 3' },
 ];
 
-// function prepareTab(activeTabId) {
-//   const prepared = tabs.find(tab => tab.id === activeTabId);
-
-//   return prepared || tabs[0];
-// }
-
 export const App = () => {
   const [activeTabId, setActiveTabId] = useState('');
 
